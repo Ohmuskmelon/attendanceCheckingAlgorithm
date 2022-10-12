@@ -11,8 +11,8 @@ internal fun read(Path : String) : Data
     for (it in 1 .. 5) {
         name += "/course$it.csv"
         val file = File(name)
-        val data: course = csvReader().readAll(file)
-        originData.origin.add(data)
+        val data = csvReader().readAll(file)
+        originData.origin.add(data as course)
         name = Path
     }
     return originData

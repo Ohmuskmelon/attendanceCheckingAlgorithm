@@ -5,7 +5,7 @@ import csv
 
 #打印6次课程
 for course_num in range(1,6):
-    with open('./data/course'+str(course_num)+'.csv', 'w') as m:
+    with open('../kotlin/data/course'+str(course_num)+'.csv', 'w') as m:
             student_num = []
             st = []
             arr = []
