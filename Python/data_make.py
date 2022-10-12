@@ -5,7 +5,7 @@ import csv
 
 #打印6次课程
 for course_num in range(1,6):
-    with open('../kotlin/data/course'+str(course_num)+'.csv', 'w') as m:
+    with open('../Kotlin/data/course'+str(course_num)+'.csv', 'w') as m:
             student_num = []
             st = []
             arr = []
@@ -51,7 +51,7 @@ for course_num in range(1,6):
                 student.append(i)
             for i in range(90):
                 temp = random.choice(range(100))
-                if temp < 70 and count < large_num:
+                if temp < 50 and count < large_num:
                     count+=1
                     slice = random.sample(course, 16)
                     for j in slice:

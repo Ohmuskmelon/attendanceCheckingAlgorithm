@@ -25,7 +25,7 @@ fun caculateACourse (data: Data, currentDay : Int, currentCourse : Int) : Mutabl
     when (currentDay) {
         in 1 .. 2 -> {
             for (it in 1 .. 9){
-                var currentLine = (currentDay-1)*9 + it
+                val currentLine = (currentDay-1)*9 + it
                 val isIn = data.origin[currentCourse][currentLine][currentDay + 3]
                 val currentRecord = data.origin[currentCourse][currentLine]
                 val currentName = currentRecord[0]
