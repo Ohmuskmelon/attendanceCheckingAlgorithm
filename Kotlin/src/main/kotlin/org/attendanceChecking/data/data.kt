@@ -2,7 +2,6 @@ package org.attendanceChecking.data
 
 import com.sun.org.apache.xpath.internal.operations.Bool
 
-//typealias course = List<List<String>>
 typealias record = MutableList<String>
 typealias course = MutableList<record>
 

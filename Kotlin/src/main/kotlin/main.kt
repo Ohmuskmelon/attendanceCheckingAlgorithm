@@ -4,9 +4,10 @@ import java.io.File
 import org.attendanceChecking.input.*
 import org.attendanceChecking.data.*
 import org.attendanceChecking.caculate.*
+import org.attendanceChecking.ouput.output
 
 fun main (){
     val haha = read("data")
     println(caculateE(haha))
-    println(haha.Result[0])
+    output("result", haha)
 }

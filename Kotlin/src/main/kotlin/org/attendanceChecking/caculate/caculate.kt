@@ -3,13 +3,17 @@ package org.attendanceChecking.caculate
 import org.attendanceChecking.data.*
 
 fun caculateE (data : Data) : Double {
+    val title = mutableListOf<String>("Day", "Student", "isAttendance")
     for (currentCourse in 0 .. 4){
         val temCourse = mutableListOf<record>()
+        temCourse.add(title)
         for (currentDay in 1 .. 20) {
             val temResult = caculateACourse(data, currentDay, currentCourse)
             temCourse.add(temResult)
         }
         data.Result.add(temCourse)
+        data.checkList.clear()
+        data.bad.clear()
     }
     data.E = data.wins.toDouble() / (data.fails+data.wins)
     return data.E
