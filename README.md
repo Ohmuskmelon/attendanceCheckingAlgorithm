@@ -48,6 +48,10 @@ Java 下载链接：https://www.oracle.com/java/technologies/downloads/
 
 生成文件格式为 csv 文件，带有标题行，分别记录学号、性别、年龄以及每次课程的到位情况
 
+![](https://tva1.sinaimg.cn/large/008vxvgGly1h73i19vg1hj31a20euq4c.jpg)
+
+![](https://tva1.sinaimg.cn/large/008vxvgGly1h73i0k7g8jj31gx0u0te1.jpg)
+
 ### 点名算法
 
 打开 IDEA，选择打开项目（open），项目路径为 **attendanceCheckingAlgorithm/Kotlin**
