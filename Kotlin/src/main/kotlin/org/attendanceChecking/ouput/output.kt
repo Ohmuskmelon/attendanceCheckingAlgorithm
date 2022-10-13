@@ -6,8 +6,8 @@ import java.io.File
 import org.attendanceChecking.data.*
 
 fun output (Path :String, data : Data){
-    val E = caculateE(data)
-    println("E = $E")
+    val e = caculateE(data)
+    println("E = $e")
     var name = Path
     for (it in 1 .. 5){
         name += "/result$it.csv"

@@ -23,11 +23,10 @@ fun caculateACourse (data: Data, currentDay : Int, currentCourse : Int) : Mutabl
     val temRecord = mutableListOf<String>()
     temRecord.add("day$currentDay")
     when (currentDay) {
-        in 1 .. 2 -> {
-            for (it in 1 .. 9){
-                val currentLine = (currentDay-1)*9 + it
-                val isIn = data.origin[currentCourse][currentLine][currentDay + 3]
-                val currentRecord = data.origin[currentCourse][currentLine]
+        1 -> {
+            for (it in 1 .. 18){
+                val isIn = data.origin[currentCourse][it][currentDay + 3]
+                val currentRecord = data.origin[currentCourse][it]
                 val currentName = currentRecord[0]
                 temRecord.add(currentName)
                 temRecord.add(isIn)
@@ -42,7 +41,7 @@ fun caculateACourse (data: Data, currentDay : Int, currentCourse : Int) : Mutabl
                 }
             }
         }
-        in 3 .. 4 -> {
+        in 2 .. 3 -> {
             for (currentBad in data.bad){
                 val currentLine = data.checkList.indexOfFirst{ it[0] == currentBad.name}
                 val isIn = data.checkList[currentLine][currentDay+3]
