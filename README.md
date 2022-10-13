@@ -1,6 +1,6 @@
 # attendanceCheckingAlgorithm
 
-福州大学软件工程第二次结对编程作业
+2020级计算机系软件工程第二次结对编程作业
 
 关于此次项目的具体说明，详见这篇博客：[第二次结对编程](https://bbs.csdn.net/topics/608574230)
 
