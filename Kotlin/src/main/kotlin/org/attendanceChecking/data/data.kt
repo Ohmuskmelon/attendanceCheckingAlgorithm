@@ -11,6 +11,7 @@ class badStudent(
     var allNotAttendance : Int = 0
 )
 
+// 利用一个Data类存储所有数据
 class Data {
     val origin = mutableListOf<course>()
     val checkList = mutableListOf<record>()

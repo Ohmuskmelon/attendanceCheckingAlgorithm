@@ -2,8 +2,9 @@ package org.attendanceChecking.caculate
 
 import org.attendanceChecking.data.*
 
+// 计算E的值，返回E的值，并且记录结果，结果记录在data.result中
 fun caculateE (data : Data) : Double {
-    val title = mutableListOf<String>("Day", "Student", "isAttendance")
+    val title = mutableListOf("Day", "Student", "isAttendance")
     for (currentCourse in 0 .. 4){
         val temCourse = mutableListOf<record>()
         temCourse.add(title)
@@ -14,14 +15,17 @@ fun caculateE (data : Data) : Double {
         data.Result.add(temCourse)
         data.checkList.clear()
         data.bad.clear()
+        // 清空临时表单：点名表以及惯犯名单表
     }
     data.E = data.wins.toDouble() / (data.fails+data.wins)
     return data.E
 }
 
+// 计算一门课程的其中一次点名的情况，返回结果记录
 fun caculateACourse (data: Data, currentDay : Int, currentCourse : Int) : MutableList<String> {
     val temRecord = mutableListOf<String>()
     temRecord.add("day$currentDay")
+    // 第1天点后20%的人，第2-20天利用惯犯名单更新，同时更新惯犯名单
     when (currentDay) {
         1 -> {
             for (it in 1 .. 18){
@@ -30,9 +34,8 @@ fun caculateACourse (data: Data, currentDay : Int, currentCourse : Int) : Mutabl
                 val currentName = currentRecord[0]
                 temRecord.add(currentName)
                 temRecord.add(isIn)
-                if (isIn == "1") {
+                if (isIn == "1")
                     data.fails++
-                }
                 else{
                     data.wins++
                     data.checkList.add(currentRecord)
@@ -79,7 +82,7 @@ fun caculateACourse (data: Data, currentDay : Int, currentCourse : Int) : Mutabl
                         currentBad.lastCheck = true
                         currentBad.allNotAttendance++
                     }
-                } else{
+                } else {
                     data.wins++
                     currentBad.lastCheck = false
                     currentBad.allNotAttendance = 0

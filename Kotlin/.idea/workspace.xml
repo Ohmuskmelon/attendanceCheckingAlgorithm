@@ -10,13 +10,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/org/attendanceChecking/caculate/CaculateKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/org/attendanceChecking/caculate/CaculateKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/org/attendanceChecking/data/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/org/attendanceChecking/data/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/org/attendanceChecking/input/InputKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/org/attendanceChecking/input/InputKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/org/attendanceChecking/ouput/OutputKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/org/attendanceChecking/ouput/OutputKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
@@ -39,19 +44,10 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/local-state/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Kotlin-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Kotlin-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/course1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/course1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/course2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/course2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/course3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/course3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/course4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/course4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/course5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/course5.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/result1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result/result1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/result2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result/result2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/result3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result/result3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/result4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result/result4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/result5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result/result5.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/attendanceChecking/caculate/caculate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/attendanceChecking/caculate/caculate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/attendanceChecking/data/data.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/attendanceChecking/data/data.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/attendanceChecking/input/input.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/attendanceChecking/input/input.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/attendanceChecking/ouput/output.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/attendanceChecking/ouput/output.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +193,8 @@
       <workItem from="1665579854040" duration="2546000" />
       <workItem from="1665630666194" duration="20000" />
       <workItem from="1665630693892" duration="9000" />
-      <workItem from="1665630753743" duration="336000" />
+      <workItem from="1665630753743" duration="738000" />
+      <workItem from="1665714051136" duration="424000" />
     </task>
     <servers />
   </component>
